@@ -1,7 +1,7 @@
 library(rmantismod)
 
 # HERE COMES YOU PYTHONEXE  <===
-PYTHONEXE <- "/uufs/chpc.utah.edu/common/home/u0253283/trial/mypy/.venv/bin/python3"
+PYTHONEXE <- "~/kp/mypy/.venv/bin/python3"
 
 ts <- Sys.time()
 cat(sprintf("Simulation started at: '%s'\n",ts))

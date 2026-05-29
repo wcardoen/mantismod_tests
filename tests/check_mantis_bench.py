@@ -24,7 +24,8 @@ import numpy as np
 import pandas as pd
 import torch
 
-import mantis
+# Modification: mantis -> mantismod
+import mantismod as mantis
 
 # ------------------------------------------------------------------ #
 # Configuration — edit these to match your environment                #
