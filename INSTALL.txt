@@ -1,28 +1,14 @@
-# Notes by WRC:
-# ------------
-# Last Update: 05/28/2026
-# What has been done?
+#### Notes by WRC:
 
-- The mantis python package was updated to support GPUs & CPUs.
-- The GPU version of mantis supports different CUDA torch builds
-- The new R code is a wrapper for the new Python code.
-- The R code has been converted to a new package rmantismod
-  which has a new function mantis_checkcuda()
-- There is a help for new R package.
-
-IMPORTANT:
-REMOVE the ~/.Renviron file. The functionality reticulate is now completely incorporated in the code.
-
-# ======================================================================================================
-
-# I launched a job on a kingspeak node with GPU support
-[u0253283@granite2:~]$ salloc --nodes=1 --ntasks=6 --mem=40G --partition=rai-gpu-grn --qos=rai-gpu-grn --account=rai --time=04:00:00 --gres=gpu:1
-salloc: Pending job allocation 1361948
-salloc: job 1361948 queued and waiting for resources
-salloc: job 1361948 has been allocated resources
-salloc: Granted job allocation 1361948
-Gsalloc: Waiting for resource configuration
-salloc: Nodes grn025 are ready for job
+* Last Update: 05/28/2026
+* What has been done?
+  - The mantis python package was updated to support GPUs & CPUs.
+  - The GPU version of mantis supports different CUDA torch builds
+  - The new R code is a wrapper for the new Python code.
+  - The R code has been converted to a new package rmantismod
+     which has a new function mantis_checkcuda()
+  - There is a help for new R package.
+  - REMOVE the ~/.Renviron file. The functionality reticulate is now completely incorporated in the code.
 
 
 # Let's assume you want to install the mantis software 
