@@ -1,2 +1,2 @@
-# mantismod_tests
+# mantistests
 
