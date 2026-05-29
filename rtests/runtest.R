@@ -1,9 +1,7 @@
 library(rmantismod)
 
-# HERE COMES YOU PYTHONEXE 
+# HERE COMES YOU PYTHONEXE  <===
 PYTHONEXE <- "/uufs/chpc.utah.edu/common/home/u0253283/trial/mypy/.venv/bin/python3"
-# PLACE WHERE YOUR MANTIS TESTS WILL BE DOWNLOADED
-TESTDIR <- "/uufs/chpc.utah.edu/common/home/u0253283/trial/mantis_tests"
 
 ts <- Sys.time()
 cat(sprintf("Simulation started at: '%s'\n",ts))
@@ -15,8 +13,8 @@ if(!hasCuda) device <- "cpu"
 # PART 1:
 # ------
 # Input: Directory where the models where stored
-model_dir <- paste(TESTDIR, "models", sep="/")
-input_file <- paste(TESTDIR, "data/example.csv", sep="/")
+model_dir <- "../models"
+input_file <- "../data/example.csv"
 
 cat(sprintf("Input data:\n"))
 cat(sprintf("  Example file:%s\n", input_file))
